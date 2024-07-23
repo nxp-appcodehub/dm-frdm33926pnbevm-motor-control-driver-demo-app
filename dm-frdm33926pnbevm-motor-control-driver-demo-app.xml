@@ -1,0 +1,31 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" type="demo" format="cmsis" versionSchema="1.0.0" name="frdm33926pnbevm motor control driver demo app" uuid="277e5585-8903-436f-9697-5280aa7132f1" id="dm-frdm33926pnbevm-motor-control-driver-demo-app-">
+    <display_title>
+        FRDM33926PNBEVM: Driver and demo app for MC33926 motor controller
+    </display_title>
+    <overview>
+        <![CDATA[The 33926 is a SMARTMOS monolithic H-bridge power IC designed primarily for
+automotive electronic throttle control, but is applicable to any low-voltage DC servo motor
+control application within the current and voltage limits stated in this specification.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="mcx"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXA153"></hw>
+        <hw id="FRDM-MCXN947"></hw>
+    </nxp_compatible_hw>
+    <nxp_ebh_hw>
+        <ebh id="nxp_frdm33926pnbevm"></ebh>
+    </nxp_ebh_hw>
+    <peripherals>
+        <peripheral name="adc"></peripheral>
+        <peripheral name="gpio"></peripheral>
+        <peripheral name="pwm"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="motor_control"></category>
+    </categories>
+</data:item>
